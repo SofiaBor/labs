@@ -45,7 +45,7 @@ int main() {
 
   for (int i = 0; i < S; ++i) {
     for (int j = 0; j < S; ++j) {
-      A[i][j] = rand() % 257 - 128;
+      A[i][j] = rand() % 100;
     }
   }
 
